@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,400;1,300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.login1 {
+  font-family: "Poppins", sans-serif;
+  background: #ececec;
+}
+
+/*------------ Login container ------------*/
+
+.box-area {
+  width: 930px;
+}
+
+/*------------ Right box ------------*/
+
+.right-box {
+  padding: 40px 30px 40px 40px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder {
+  font-size: 16px;
+}
+
+.rounded-4 {
+  border-radius: 20px;
+}
+.rounded-5 {
+  border-radius: 30px;
+}
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+  }
+  .left-box {
+    height: 150px;
+    overflow: hidden;
+  }
+  .right-box {
+    padding: 20px;
+  }
+}
+*/ :root {
+  --primary-text-color: #00bf7b;
+  --secondary-text-color: #577592;
+  --accent-color: #00bf7c80;
+  --padding-inline-section: 20px;
+}
+
+.link-forget {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  line-height: 1.5rem;
+  margin: 20px;
+  align-items: end;
+}
+.link-forget:hover {
+  color: var(--accent-color);
+}
+
+.primary-button {
+  background-color: var(--primary-text-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: black !important;
+  padding: 12px 24px;
+  box-shadow: 0 0 2px #00bf7b;
+  transition: 0.2s ease-out;
+}
+
+.primary-button:hover {
+  background-color: var(--accent-color);
+}
+
+.secondary-button {
+  /* border: 0.5px solid black; */
+  border-radius: 6px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  padding: 12px 24px;
+  transition: 0.2s ease-out;
+}
+.secondary-button:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color) !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.signup-body main {
+  height: 800px;
+}
+.signup-body p input {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
+
+.signup-body p input[type="submit"] {
+  background-color: var(--primary-text-color);
+  color: white;
+  cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover {
+  background-color: var(--primary-text-color);
+}
+
+.btncolor {
+  background-color: #00bf7b;
+}
